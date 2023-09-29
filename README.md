@@ -4,7 +4,7 @@ This project provides a complete Terraform-based infrastructure as code (IAC) so
 ## Terraform
 Terraform is a tool for provisioning, managing, and deploying infrastructure resources. It is an open-source tool written in Golang and created by the HashiCorp company. With Terraform, you can manage infrastructure for your applications across multiple cloud providers - AWS, Azure, GCP, etc. - using a single tool.
 
-![Terraform](/0.png)
+![Terraform](/Terraform.png)
 
 ## Prerequisites for Deploying the AWS-Terraform-3Tier-Architecture
 

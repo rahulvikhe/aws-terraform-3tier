@@ -1,4 +1,4 @@
-# AWS-Terraform-3Tier-Architecture
+# AWS-Terraform-3Tier
 This project provides a complete Terraform-based infrastructure as code (IAC) solution for creating a scalable and resilient 3-tier architecture on Amazon Web Services (AWS). 
 
 ## Terraform
@@ -25,6 +25,9 @@ Terraform is a tool for provisioning, managing, and deploying infrastructure res
 **Basic Terraform Knowledge:** Familiarize yourself with the basics of Terraform, including how to write Terraform configuration files (HCL), initialize Terraform projects, and run Terraform commands.
 
 **Database Credentials:** Prepare the username and password for the database you intend to create. Replace placeholders like "your_username" and "your_password" in the Terraform configuration files with your actual database credentials.
+
+## Diagram
+![Diagram](/AWS-Terraform-3Tier-Diagram.png)
 
 **Step 1:** Create a **vpc.tf** file (Creating the VPC): In vpc.tf, you are defining the configuration for an Amazon Virtual Private Cloud (VPC). It specifies the VPC's IP address range (CIDR block) and its tenancy settings.
     
